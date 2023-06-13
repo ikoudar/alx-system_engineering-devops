@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 < @:wqiacta >> iacta
+tail -n 1 iacta >> iacta_dup && cat iacta_dup > iacta
