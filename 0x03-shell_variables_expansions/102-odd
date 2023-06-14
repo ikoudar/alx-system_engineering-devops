@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n $(($(wc -l < input_file) / 2 + 1)) input_file | tail -n +1
+head -n | wc -l | tail -n
