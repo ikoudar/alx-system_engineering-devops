@@ -1,0 +1,2 @@
+#!/bin/bash
+sorted_hosts=$(echo "$hosts_count" | sort -rnk2 | head -n 11)
